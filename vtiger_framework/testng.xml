@@ -1,4 +1,4 @@
-<suite name="VtigerAutomationSuit" verbose="1" parallel="tests" threadcount="3">
+<suite name="VtigerAutomationSuit" verbose="1" parallel="tests" threadcount="4">
 
 <!--     <listeners> -->
 <!--   <listener class-name=" com.eva.vtiger.testscripts.Transformer"  ></listener> -->
