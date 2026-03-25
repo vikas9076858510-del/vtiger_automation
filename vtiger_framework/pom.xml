@@ -6,7 +6,7 @@
   
   <dependencies>
   
-     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+     <!-- vikas  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
       <dependency>
            <groupId>org.seleniumhq.selenium</groupId>
            <artifactId>selenium-java</artifactId>
