@@ -1,0 +1,65 @@
+<suite name="VtigerAutomationSuit" verbose="1" parallel="tests" threadcount="3">
+
+<!--     <listeners> -->
+<!--   <listener class-name=" com.eva.vtiger.testscripts.Transformer"  ></listener> -->
+ <!--    <listener class-name=" com.eva.vtiger.testscripts.VtigerTestListener"  ></listener> --> -->
+  
+<!--   </listeners> -->
+
+
+
+
+   <listeners>
+        <listener class-name="com.eva.vtiger.testscripts.Transformer"/>
+    </listeners>
+  
+  
+
+<!--     <groups> -->
+<!--    <run> -->
+<!--     <include name="regression"></include> -->
+<!--    </run> -->
+
+<!--   </groups> -->
+
+
+  <parameter  name="url"  value="http://localhost:8888/">  </parameter>
+  
+  <test name="ChromeAutomation">       <!--  sub suit -->
+  <parameter  name="browser"  value="chrome">  </parameter>
+    <classes> 
+    <class name="com.eva.vtiger.testscripts.ContactsTestScript"> 
+    
+    </class>
+    </classes>
+ </test>
+ 
+ <test name="FirefoxAutomation">     <!--  sub suit -->
+  <parameter  name="browser"  value="firefox">  </parameter>
+    <classes> 
+    <class name="com.eva.vtiger.testscripts.ContactsTestScript"> 
+    
+    </class>
+    </classes>
+ </test>
+ 
+<!--  <test name="EdgeAutomation">       sub suit -->
+<!--   <parameter  name="browser"  value="edge">  </parameter> -->
+<!--     <classes>  -->
+<!--     <class name="com.eva.vtiger.testscripts.ContactsTestScript">  -->
+    
+<!--     </class> -->
+<!--     </classes> -->
+<!--  </test> -->
+ 
+</suite>
+
+ 
+
+
+
+
+
+
+
+

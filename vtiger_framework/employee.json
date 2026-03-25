@@ -1,0 +1,35 @@
+
+{
+	"firstName":"Rahul",
+	"lastName":"Yadav",
+	"age": 78,
+	"married":true,
+	"address":{
+		   "permanent":"",
+		   "residential":"",
+		   "pin":123455
+		   },
+		   "hobbies":["cricket", "movies"],
+		   
+		   "departmentInfo":[
+			{
+				"deptId":6,
+				"deptName":"production"
+			},
+			
+			{
+			"deptId":8,
+			"deptName":"hr"
+			},
+			
+			{
+				"deptId":7,
+				"deptName":"sales"
+				}
+		   ]
+		   
+	}
+	
+
+
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [VtigerAutomationSuit]">
+  <parameter name="url" value="http://localhost:8888/"/>
+  <listeners>
+    <listener class-name="com.eva.vtiger.testscripts.Transformer"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ChromeAutomation(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.eva.vtiger.testscripts.ContactsTestScript">
+        <methods>
+          <include name="common"/>
+          <include name="verifyContactCreation"/>
+          <include name="afterSuit"/>
+          <include name="verifyUpdateContacts"/>
+          <include name="parentMethod"/>
+          <include name="verifyDeleteContacts"/>
+          <include name="ClosePage"/>
+        </methods>
+      </class> <!-- com.eva.vtiger.testscripts.ContactsTestScript -->
+    </classes>
+  </test> <!-- ChromeAutomation(failed) -->
+  <test thread-count="5" parallel="tests" name="FirefoxAutomation(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.eva.vtiger.testscripts.ContactsTestScript">
+        <methods>
+          <include name="common"/>
+          <include name="verifyContactCreation"/>
+          <include name="afterSuit"/>
+          <include name="verifyUpdateContacts"/>
+          <include name="parentMethod"/>
+          <include name="verifyDeleteContacts"/>
+          <include name="ClosePage"/>
+        </methods>
+      </class> <!-- com.eva.vtiger.testscripts.ContactsTestScript -->
+    </classes>
+  </test> <!-- FirefoxAutomation(failed) -->
+</suite> <!-- Failed suite [VtigerAutomationSuit] -->

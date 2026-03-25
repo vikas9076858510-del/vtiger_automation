@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-22T10:23:53 IST" name="Default suite" finished-at="2026-02-22T10:23:54 IST" duration-ms="246">
+    <groups>
+    </groups>
+    <test started-at="2026-02-22T10:23:53 IST" name="Default test" finished-at="2026-02-22T10:23:54 IST" duration-ms="246">
+      <class name="com.eva.vtiger.pojos.ApiAutomation">
+        <test-method signature="VarifyContactCreation()[pri:0, instance:com.eva.vtiger.pojos.ApiAutomation@22ff4249]" started-at="2026-02-22T10:23:54 IST" name="VarifyContactCreation" finished-at="2026-02-22T10:23:54 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyContactCreation -->
+      </class> <!-- com.eva.vtiger.pojos.ApiAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

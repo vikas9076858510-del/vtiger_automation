@@ -1,0 +1,65 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eva</groupId>
+  <artifactId>vtiger_framework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  
+     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+      <dependency>
+           <groupId>org.seleniumhq.selenium</groupId>
+           <artifactId>selenium-java</artifactId>
+           <version>4.40.0</version>
+      </dependency> 
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+      <dependency>
+           <groupId>com.aventstack</groupId>
+           <artifactId>extentreports</artifactId>
+           <version>5.1.2</version>
+      </dependency>
+         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+      <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+          <version>2.21.0</version>
+      </dependency>
+  
+  
+         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+      <dependency>
+         <groupId>org.projectlombok</groupId>
+         <artifactId>lombok</artifactId>
+         <version>1.18.42</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+     <dependency>
+         <groupId>org.testng</groupId>
+         <artifactId>testng</artifactId>
+         <version>7.11.0</version>
+        
+     </dependency>
+        <!-- Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+     <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.4.0</version>
+      
+    </dependency>
+    
+    <dependency>
+           <groupId>io.rest-assured</groupId>
+           <artifactId>json-schema-validator</artifactId>
+           <version>5.4.0</version>
+           <scope>test</scope>
+     </dependency>
+<!-- Source: https://mvnrepository.com/artifact/org.json/json -->
+     <dependency>
+         <groupId>org.json</groupId>
+         <artifactId>json</artifactId>
+         <version>20251224</version>
+         <scope>compile</scope>
+</dependency>
+  </dependencies>
+  
+</project>
